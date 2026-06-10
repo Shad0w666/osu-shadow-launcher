@@ -1,4 +1,3 @@
-```
 # ⭕ Osu! Shadow Launcher
 
 ![Platform](https://img.shields.io/badge/OS-Windows-blue?style=flat-square)
@@ -23,8 +22,8 @@ If you are tired of manually starting osu!, opening web dashboards (like Tosu), 
 ## 📂 Directory Structure
 
 Before running the setup, ensure your folder structure looks like this:
-```
 
+```
 Osu! Shadow Launcher/
 ├── setup.bat                 <-- Run this first!
 ├── README.md
@@ -34,7 +33,7 @@ Osu! Shadow Launcher/
         └── scripts/
             ├── launcher_EN.ps1
             └── launcher_CS.ps1
-
+```
 
 
 
