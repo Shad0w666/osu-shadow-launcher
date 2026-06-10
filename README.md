@@ -36,6 +36,7 @@ Osu! Shadow Launcher/
 ```
 
 
+---
 
 
 🚀 Installation & Setup
@@ -68,6 +69,8 @@ Once configured, simply run OsuShadowLauncher.exe. It will present a clean CLI m
 
 To edit your configuration later, press C in the main menu. To reconfigure Tosu, press T.
 
+---
+
 🛠️ Troubleshooting & FAQ
 Q: I built a new .exe with a different icon, but Windows still shows the old one!
 
@@ -82,12 +85,14 @@ Q: My antivirus / Windows Defender flagged the .exe file.
 
 Because setup.bat compiles a C# executable that wraps and executes a PowerShell script silently in the background, heuristic scanners (like Windows Defender) might flag it as suspicious. This is a false positive. You can inspect the source code in setup.bat to see exactly how the C# wrapper is built. Sometimes it helps to delete the built OsuShadowLauncher.exe and rebuild it again.
 
+---
+
 📜 Requirements
 Windows 10 / 11
 PowerShell 5.1+
 .NET Framework (Pre-installed on modern Windows machines)
 
-
+---
 
 ## 🤝 Acknowledgments & Credits
 
