@@ -15,7 +15,8 @@ If you are tired of manually starting osu!, opening web dashboards (like Tosu), 
 - **Auto-Downloader & Configurator:** Don't have Tosu installed? The script fetches the latest Windows release directly from GitHub, extracts it, and applies optimal configuration automatically.
 - **Native C# Wrapper:** Compiles a clean `.exe` launcher on your machine using the built-in Windows C# compiler. No heavy dependencies, no external bloatware.
 - **Dynamic Icon Support:** Drop your favorite `.ico` files into the resources folder, and the setup will let you choose your launcher icon dynamically.
-- Native support for both English and Czech languages.
+
+> Native support for both English and Czech languages.
 
 ---
 
@@ -39,35 +40,38 @@ Osu! Shadow Launcher/
 ---
 
 
-🚀 Installation & Setup
+# 🚀 Installation & Setup
 1. Build the Launcher
-> Extract the .zip archive to your desired location.
-
-> Run setup.bat.
-
-> Choose your preferred language (English or Czech).
-
-> Select an icon for your launcher from the dynamically generated list.
-
-> The script will compile OsuShadowLauncher.exe in the root folder.
-
-> (Optional) You can now safely delete setup.bat to keep the folder clean.
+>
+Extract the .zip archive to your desired location.
+>
+Run setup.bat.
+>
+Choose your preferred language (English or Czech).
+>
+Select an icon for your launcher from the dynamically generated list.
+>
+The script will compile OsuShadowLauncher.exe in the root folder.
+>
+(Optional) You can now safely delete setup.bat to keep the folder clean.
 
 2. First Run (Configuration)
-> Double-click the newly created OsuShadowLauncher.exe.
-
-> A console window will appear guiding you through the initial setup.
-
-> The script will locate your osu!.exe. If it is not in the default %localappdata%\osu! folder, a file picker dialog will prompt you to find it.
-
-> You will be asked if you want to import/download Tosu and configure the Wooting Profile Switcher. Follow the on-screen prompts.
-
-> All settings are saved securely in resources/config.json.
-
+>
+Double-click the newly created OsuShadowLauncher.exe.
+>
+A console window will appear guiding you through the initial setup.
+>
+The script will locate your osu!.exe. If it is not in the default %localappdata%\osu! folder, a file picker dialog will prompt you to find it.
+>
+You will be asked if you want to import/download Tosu and configure the Wooting Profile Switcher. Follow the on-screen prompts.
+>
+All settings are saved securely in resources/config.json.
+                  
 3. Daily Usage
-> Once configured, simply run OsuShadowLauncher.exe. It will present a clean CLI menu allowing you to launch osu! alone, or alongside your chosen companion apps.
-
-> To edit your configuration later, press C in the main menu. To reconfigure Tosu, press T.
+>
+Once configured, simply run OsuShadowLauncher.exe. It will present a clean CLI menu allowing you to launch osu! alone, or alongside your chosen companion apps.
+>
+To edit your configuration later, press C in the main menu. To reconfigure Tosu, press T.
 
 ---
 
@@ -88,9 +92,9 @@ Q: My antivirus / Windows Defender flagged the .exe file.
 ---
 
 📜 Requirements
-> Windows 10 / 11
-> PowerShell 5.1+
-> .NET Framework (Pre-installed on modern Windows machines)
+- Windows 10 / 11
+- PowerShell 5.1+
+- .NET Framework (Pre-installed on modern Windows machines)
 
 ---
 
